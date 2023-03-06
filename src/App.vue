@@ -114,8 +114,8 @@ export default {
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index-2.html">
-                    <img src="assets/img/logo.png" class="logo" alt="Logo">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/img/logo.png" class="logo" alt="Logo">
                 </a>
             </div>
             <!-- End Header Navigation -->
@@ -123,7 +123,7 @@ export default {
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
 
-                <img src="assets/img/logo.png" alt="Logo">
+                <img src="/assets/img/logo.png" alt="logo">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-times"></i>
                 </button>
@@ -141,9 +141,8 @@ export default {
                     <li>
                         <a class="smooth-menu" href="#about">about</a>
                     </li>
-                    <li>
-                        <a class="smooth-menu" href="#blog">blog</a>
-                    </li>
+                    
+                    
                     <li>
                         <a class="smooth-menu" href="#contact">contact</a>
                     </li>
@@ -165,7 +164,7 @@ export default {
 <header class="header-fixed">
     <div class="f-flex">
         <div class="logo">
-            <a href="#"><img src="assets/img/logo-icon.png" alt="Logo"></a>
+            <a href="#"><img src="/assets/img/logo-icon.png" alt="Logo"></a>
         </div>
         <div class="menu">
             <ul class="nav">
@@ -223,7 +222,7 @@ export default {
 
                 <div class="col-lg-6 info">
                     <h1 class="text-invisible">WELCOME</h1>
-                    <h2>Hey <img src="assets/img/shape/4.png" alt="Icon"> I'm <span>Greatmax</span></h2>
+                    <h2>Hey <img src="/assets/img/shape/4.png" alt="Icon"> I'm <span>Greatmax</span></h2>
                     <h3 class="title">
                         <span class="header-caption" id="page-top">
                             <!-- type headline start-->
@@ -244,9 +243,9 @@ export default {
                 </div>
 
                  <div class="col-lg-6 thumb" data-wow-delay="900ms">
-                    <img class=" wow fadeInDown" src="assets/img/illustration/4.png" alt="Thumb">
+                    <img class=" wow fadeInDown" src="/assets/img/illustration/4.png" alt="Thumb">
                     <div class="shape-center">
-                        <img src="assets/img/shape/7.png" alt="Thumb">
+                        <img src="/assets/img/shape/7.png" alt="Thumb">
                     </div>
                 </div>
                 
@@ -295,7 +294,7 @@ export default {
             <!-- Single Item -->
             <div class="service-style-one col-lg-4 col-md-6">
                 <div class="service-style-one-item">
-                    <img src="assets/img/icon/1.png" alt="Icon">
+                    <img src="/assets/img/icon/1.png" alt="Icon">
                     <h4>Web Development</h4>
                     <p>
                         I create custom websites and web applications that align with your business goals. From user experience and interface design to database integration and server-side programming, I ensure that every aspect of your website is optimized for performance, security, and scalability.
@@ -306,7 +305,7 @@ export default {
             <!-- Single Item -->
             <div class="service-style-one col-lg-4 col-md-6">
                 <div class="service-style-one-item">
-                    <img src="assets/img/icon/2.png" alt="Icon">
+                    <img src="/assets/img/icon/2.png" alt="Icon">
                     <h4>Consultation</h4>
                     <p>
                         I can help you identify and achieve your business goals through customized solutions. Whether you need guidance on architecture, user experience design or technology stack selection,  With my expertise in development technologies, I can provide insights and recommendations that are tailored to your specific needs
@@ -317,7 +316,7 @@ export default {
             <!-- Single Item -->
             <div class="service-style-one col-lg-4 col-md-6">
                 <div class="service-style-one-item">
-                    <img src="assets/img/icon/4.png" alt="Icon">
+                    <img src="/assets/img/icon/4.png" alt="Icon">
                     <h4>Project Management</h4>
                     <p>
                         I specialize in overseeing Software development projects from start to finish, ensuring that they are delivered on time, within budget, and to the highest quality standards. With my expertise in project management methodologies and tools, I can help you plan, organize, and execute your projects efficiently and effectively. 
@@ -340,7 +339,7 @@ export default {
 ============================================= -->
 <div id="portfolio" class="portfolio-style-six-area default-padding-top">
     <div class="shape-animated-right">
-        <img src="assets/img/shape/1.webp" alt="Shape">
+        <img src="/assets/img/shape/1.webp" alt="Shape">
     </div>
     
     <div class="container">
@@ -351,7 +350,7 @@ export default {
                         <h5 class="sub-title">Recent Work</h5>
                         <h2 class="title">A small gallery of recent projects.<br> It's only a drop in the ocean comapred to the entire list </h2>
                         <div class="heading-shape">
-                            <img src="assets/img/shape/10.png" alt="Shape">
+                            <img src="/assets/img/shape/10.png" alt="Shape">
                         </div>
                     </div>
                 </div>
@@ -386,7 +385,7 @@ export default {
                         <!-- Single Item -->
                         <div class="pf-item">
                             <div class="overlay-content">
-                                <img src="assets/img/portfolio/9.png" alt="thumb">
+                                <img src="/assets/img/portfolio/9.png" alt="thumb">
                                 <div class="content">
                                     <div class="title">
                                         <span>Trading Terminal</span>
@@ -400,7 +399,7 @@ export default {
                         <!-- Single Item -->
                         <div class="pf-item">
                             <div class="overlay-content">
-                                <img src="assets/img/portfolio/11.png" alt="thumb">
+                                <img src="/assets/img/portfolio/11.png" alt="thumb">
                                 <div class="content">
                                     <div class="title">
                                         <span>Client CRM</span>
@@ -414,7 +413,7 @@ export default {
                         <!-- Single Item -->
                         <div class="pf-item">
                             <div class="overlay-content">
-                                <img src="assets/img/portfolio/12.png" alt="thumb">
+                                <img src="/assets/img/portfolio/12.png" alt="thumb">
                                 <div class="content">
                                     <div class="title">
                                         <span>Logistics</span>
@@ -428,7 +427,7 @@ export default {
                         <!-- Single Item -->
                         <div class="pf-item">
                             <div class="overlay-content">
-                                <img src="assets/img/portfolio/14.png" alt="thumb">
+                                <img src="/assets/img/portfolio/14.png" alt="thumb">
                                 <div class="content">
                                     <div class="title">
                                         <span>Crypto Currency</span>
@@ -443,7 +442,7 @@ export default {
                         <!-- Single Item -->
                         <div class="pf-item">
                             <div class="overlay-content">
-                                <img src="assets/img/portfolio/13.png" alt="thumb">
+                                <img src="/assets/img/portfolio/13.png" alt="thumb">
                                 <div class="content">
                                     <div class="title">
                                         <span>Community Service</span>
@@ -457,7 +456,7 @@ export default {
                         <!-- Single Item -->
                         <div class="pf-item">
                             <div class="overlay-content">
-                                <img src="assets/img/portfolio/10.png" alt="thumb">
+                                <img src="/assets/img/portfolio/10.png" alt="thumb">
                                 <div class="content">
                                     <div class="title">
                                         <span>Contruction</span>
@@ -486,7 +485,7 @@ export default {
 
                     <div class="project-details-items">
                         <div class="project-thumb">
-                            <img src="assets/img/portfolio/9.png" alt="Thumb">
+                            <img src="/assets/img/portfolio/9.png" alt="Thumb">
                         </div>
                         <div class="top-info">
                             <div class="row">
@@ -521,10 +520,10 @@ export default {
                            
                             <!-- <div class="row">
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/portfolio/99.png" alt="Thumb">
+                                    <img src="/assets/img/portfolio/99.png" alt="Thumb">
                                 </div>
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/thumb/2.jpg" alt="Thumb">
+                                    <img src="/assets/img/thumb/2.jpg" alt="Thumb">
                                 </div>
                             </div> -->
                         </div>
@@ -547,7 +546,7 @@ export default {
 
                     <div class="project-details-items">
                         <div class="project-thumb">
-                            <img src="assets/img/portfolio/11.png" alt="Thumb">
+                            <img src="/assets/img/portfolio/11.png" alt="Thumb">
                         </div>
                         <div class="top-info">
                             <div class="row">
@@ -582,10 +581,10 @@ export default {
                            
                             <!-- <div class="row">
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/portfolio/99.png" alt="Thumb">
+                                    <img src="/assets/img/portfolio/99.png" alt="Thumb">
                                 </div>
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/thumb/2.jpg" alt="Thumb">
+                                    <img src="/assets/img/thumb/2.jpg" alt="Thumb">
                                 </div>
                             </div> -->
                         </div>
@@ -608,7 +607,7 @@ export default {
 
                     <div class="project-details-items">
                         <div class="project-thumb">
-                            <img src="assets/img/portfolio/12.png" alt="Thumb">
+                            <img src="/assets/img/portfolio/12.png" alt="Thumb">
                         </div>
                         <div class="top-info">
                             <div class="row">
@@ -643,10 +642,10 @@ export default {
                            
                             <!-- <div class="row">
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/portfolio/99.png" alt="Thumb">
+                                    <img src="/assets/img/portfolio/99.png" alt="Thumb">
                                 </div>
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/thumb/2.jpg" alt="Thumb">
+                                    <img src="/assets/img/thumb/2.jpg" alt="Thumb">
                                 </div>
                             </div> -->
                         </div>
@@ -670,7 +669,7 @@ export default {
 
                     <div class="project-details-items">
                         <div class="project-thumb">
-                            <img src="assets/img/portfolio/14.png" alt="Thumb">
+                            <img src="/assets/img/portfolio/14.png" alt="Thumb">
                         </div>
                         <div class="top-info">
                             <div class="row">
@@ -705,10 +704,10 @@ export default {
                            
                             <!-- <div class="row">
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/portfolio/99.png" alt="Thumb">
+                                    <img src="/assets/img/portfolio/99.png" alt="Thumb">
                                 </div>
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/thumb/2.jpg" alt="Thumb">
+                                    <img src="/assets/img/thumb/2.jpg" alt="Thumb">
                                 </div>
                             </div> -->
                         </div>
@@ -732,7 +731,7 @@ export default {
 
                     <div class="project-details-items">
                         <div class="project-thumb">
-                            <img src="assets/img/portfolio/13.png" alt="Thumb">
+                            <img src="/assets/img/portfolio/13.png" alt="Thumb">
                         </div>
                         <div class="top-info">
                             <div class="row">
@@ -767,10 +766,10 @@ export default {
                            
                             <!-- <div class="row">
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/portfolio/99.png" alt="Thumb">
+                                    <img src="/assets/img/portfolio/99.png" alt="Thumb">
                                 </div>
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/thumb/2.jpg" alt="Thumb">
+                                    <img src="/assets/img/thumb/2.jpg" alt="Thumb">
                                 </div>
                             </div> -->
                         </div>
@@ -795,7 +794,7 @@ export default {
 
                     <div class="project-details-items">
                         <div class="project-thumb">
-                            <img src="assets/img/portfolio/10.png" alt="Thumb">
+                            <img src="/assets/img/portfolio/10.png" alt="Thumb">
                         </div>
                         <div class="top-info">
                             <div class="row">
@@ -830,10 +829,10 @@ export default {
                            
                             <!-- <div class="row">
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/portfolio/99.png" alt="Thumb">
+                                    <img src="/assets/img/portfolio/99.png" alt="Thumb">
                                 </div>
                                 <div class="col-lg-6 col-md-6">
-                                    <img src="assets/img/thumb/2.jpg" alt="Thumb">
+                                    <img src="/assets/img/thumb/2.jpg" alt="Thumb">
                                 </div>
                             </div> -->
                         </div>
@@ -863,7 +862,7 @@ export default {
         <div class="row align-center">
             <div class="about-style-six col-lg-5">
                 <div class="thumb">
-                    <img class="wow fadeInUp" src="assets/img/illustration/3.png" alt="Thumb">
+                    <img class="wow fadeInUp" src="/assets/img/illustration/3.png" alt="Thumb">
                 </div>
             </div>
             <div class="about-style-six col-lg-6 offset-lg-1">
@@ -909,7 +908,7 @@ export default {
 ============================================= -->
 <div id="resume" class="resume-area default-padding-top">
     <div class="shape-right-top-extra">
-        <img src="assets/img/shape/14.png" alt="Shape">
+        <img src="/assets/img/shape/14.png" alt="Shape">
     </div>
     <div class="container">
         <div class="experience-content-box">
@@ -1198,13 +1197,13 @@ export default {
                             <h5 class="sub-title">Pricing</h5>
                             <h2 class="title">The best pricing plans <br> to get your best</h2>
                             <div class="heading-shape">
-                                <img src="assets/img/shape/10.png" alt="Shape">
+                                <img src="/assets/img/shape/10.png" alt="Shape">
                             </div>
                         </div>
                     </div>
                     <div class="save-ammount mt-100 mt-md-50">
                         <h4>Save up to <strong>50%</strong> with your every order</h4>
-                        <img src="assets/img/shape/2.webp" alt="Thumb">
+                        <img src="/assets/img/shape/2.webp" alt="Thumb">
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1">
@@ -1257,27 +1256,27 @@ export default {
                         <div class="swiper-wrapper align-center">
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/logo/6.png" alt="Thumb">
+                                <img src="/assets/img/logo/6.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/logo/7.png" alt="Thumb">
+                                <img src="/assets/img/logo/7.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/logo/8.png" alt="Thumb">
+                                <img src="/assets/img/logo/8.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/logo/9.png" alt="Thumb">
+                                <img src="/assets/img/logo/9.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                             <!-- Single Item -->
                             <div class="swiper-slide">
-                                <img src="assets/img/logo/10.png" alt="Thumb">
+                                <img src="/assets/img/logo/10.png" alt="Thumb">
                             </div>
                             <!-- End Single Item -->
                         </div>
@@ -1296,10 +1295,10 @@ export default {
 ============================================= -->
 <div class="work-available-area text-center box-layout bg-light default-padding">
     <div class="shape-right-top-mini">
-        <img src="assets/img/shape/16.png" alt="illustration">
+        <img src="/assets/img/shape/16.png" alt="illustration">
     </div>
     <div class="shape-illustration">
-        <img src="assets/img/illustration/2.png" alt="illustration">
+        <img src="/assets/img/illustration/2.png" alt="illustration">
     </div>
     <div class="container">
         <div class="row">
