@@ -1,23 +1,24 @@
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
-import Swal from 'sweetalert2'
-import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
+import emailjs from "@emailjs/browser";
 export default {
-    data() {
-        return {
-            name: null,
-            phone: null,
-            email: null,
-            message: null,
-            
-        }
-
-    },
+  data() {
+    return {
+      name: null,
+      phone: null,
+      email: null,
+      message: null,
+    };
+  },
   methods: {
     sendEmail() {
-        
-      emailjs.sendForm('service_8axsp6p', 'template_zz2oi7j', this.$refs.form, 'HD34HmPYw8YvoP1lo')
+      emailjs
+        .sendForm(
+          "service_8axsp6p",
+          "template_zz2oi7j",
+          this.$refs.form,
+          "HD34HmPYw8YvoP1lo"
+        )
         .then((result) => {
             console.log('SUCCESS!', result.text);
             this.name = null;
@@ -48,7 +49,7 @@ export default {
 
 <!-- Start Preloader 
 ============================================= -->
-<div id="preloader">
+<!-- <div id="preloader">
     <div id="ambrox-preloader" class="ambrox-preloader">
         <div class="animation-preloader">
             <div class="spinner"></div>
@@ -96,7 +97,7 @@ export default {
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- End Preloader -->
 
 
@@ -243,7 +244,7 @@ export default {
                 </div>
 
                  <div class="col-lg-6 thumb" data-wow-delay="900ms">
-                    <img class=" wow fadeInDown" src="/assets/img/illustration/4.png" alt="Thumb">
+                    <!-- <img class=" wow fadeInDown" src="/assets/img/illustration/4.png" alt="Thumb"> -->
                     <div class="shape-center">
                         <img src="/assets/img/shape/7.png" alt="Thumb">
                     </div>
@@ -500,7 +501,7 @@ export default {
                                                     Project Type <span>Web Developmet</span>
                                                 </li>
                                                 <li>
-                                                   Project URL <span><a href="https://tradestation.neptunefx.net">tradestation.neptunefx.net</a></span>
+                                                   Project URL <span><a href="https://trade.neptunefx.net">tradestation.neptunefx.net</a></span>
                                                 </li>
                                                 <li>
                                                     City <span>London, United Kingdom</span>
@@ -860,16 +861,16 @@ export default {
 <div id="about" class="about-style-six-area default-padding-top">
     <div class="container">
         <div class="row align-center">
-            <div class="about-style-six col-lg-5">
+            <!-- <div class="about-style-six col-lg-5">
                 <div class="thumb">
                     <img class="wow fadeInUp" src="/assets/img/illustration/3.png" alt="Thumb">
                 </div>
-            </div>
+            </div> -->
             <div class="about-style-six col-lg-6 offset-lg-1">
                 <h4 class="sub-title">About Me</h4>
                 <!-- <h2 class="title">I can develop <br> that help people</h2> -->
                 <p>
-                    I'm Oluwagbenga Ojo, but you can call me Greatmax. With over 7 years of experience in full-stack development, I've built everything from regular websites and dashboards to complex applications and open source libraries. My expertise spans across various stacks such as Laravel, PHP, JavaScript, Vue.js, Nuxt.js, HTML, CSS, Bootstrap, Python, REST API, WebSockets, Web3, AWS, and more.
+                    I'm Maxwell, With over 7 years of experience in full-stack development, I've built everything from regular websites and dashboards to complex applications and open source libraries. My expertise spans across various stacks such as Laravel, PHP, JavaScript, Vue.js, Nuxt.js, HTML, CSS, Bootstrap, Python, REST API, WebSockets, Web3, AWS, and more.
                 </p>
                 <p>
                     One of my strongest qualities as a developer is my ability to write clean and modern code that's both fast and maintainable. I take pride in my work and always strive to exceed expectations, whether it's meeting tight deadlines or collaborating closely with clients to understand their vision and deliver high-quality solutions.
@@ -938,21 +939,21 @@ export default {
                                         <li>
                                             <h5>Name</h5>
                                             <p>
-                                                Oluwagbenga Ojo
+                                                Gbenga Maxwell
                                             </p>
                                         </li>
                                         <li>
                                             <h5>LinkedIn</h5>
                                             <p>
-                                                <a href="https://www.linkedin.com/in/oluwagbenga-ojo/"> @oluwagbenga-ojo</a>
+                                                <a href="https://www.linkedin.com/in/oluwagbenga-ojo/"> Gbenga</a>
                                             </p>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <h5>Age</h5>
                                             <p>
                                                 27
                                             </p>
-                                        </li>
+                                        </li> -->
                                         <li>
                                             <h5>City</h5>
                                             <p>
@@ -962,7 +963,7 @@ export default {
                                         <li>
                                             <h5>Email</h5>
                                             <p>
-                                               techgbenga@gmail.com
+                                                greatmax@shadownetsolutions.com
                                             </p>
                                         </li>
                                         <li>
@@ -977,12 +978,12 @@ export default {
                                                 <a target="_blank" href="https://twitter.com/Greatmax_main"> @Greatmax_main</a>
                                             </p>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <h5>Freelance</h5>
                                             <p>
                                                 Available
                                             </p>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -1014,7 +1015,7 @@ export default {
                                                 </div>
                                             </div>
                                         </li>
-
+<!-- 
                                         <li>
                                             <div class="row align-center">
                                                 <div class="col-lg-2">
@@ -1035,7 +1036,7 @@ export default {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
+                                        </li> -->
                                         <li>
                                             <div class="row align-center">
                                                 <div class="col-lg-2">
@@ -1387,8 +1388,7 @@ export default {
                                 <div class="info">
                                     <p>Email</p>
                                     <h5>
-                                        <a href="mailto:techgbenga@gmail.com">techgbenga@gmail.com</a> 
-                                        <br> 
+                                       
                                         <a href="mailto:greatmax@shadownetsolutions.com">greatmax@shadownetsolutions.com</a>
                                     </h5>
                                 </div>
@@ -1400,7 +1400,7 @@ export default {
                                 <div class="info">
                                     <p>Address</p>
                                     <h5>
-                                        21 Road, <br> Festac, <br> Lagos
+                                        Adedoyin St, <br> Ikeja, <br> Lagos
                                     </h5>
                                 </div>
                             </li>
@@ -1410,10 +1410,10 @@ export default {
                                 </div>
                                 <div class="info">
                                     <p>Phone</p>
-                                    <h5>
+                                    <!-- <h5>
                                         <a href="tel:+2349034222932">+2349034222932</a> 
-                                        <!-- <br><a href="tel:+4733378901">+99-34-8878-9989</a> -->
-                                    </h5>
+                                        
+                                    </h5> -->
                                 </div>
                             </li>
                         </ul>
